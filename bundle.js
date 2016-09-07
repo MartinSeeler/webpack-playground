@@ -400,7 +400,10 @@
 /* 5 */
 /***/ function(module, exports) {
 
-	module.exports = 'Content from file';
+	"use strict";
+	var fn = function () { return 'Content from TS file'; };
+	Object.defineProperty(exports, "__esModule", { value: true });
+	exports.default = fn;
 
 
 /***/ }

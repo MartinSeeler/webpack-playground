@@ -1,2 +1,3 @@
 require('./style.css');
-document.write(require('./content.js'));
+const fn = require('./content');
+document.write(fn.foo());
